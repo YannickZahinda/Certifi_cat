@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    border: 10px dashed rgb(105, 8, 147);
+    border-radius: 10px;
+    margin: 40px;
+    padding: 20px;
+    background: rgb(194, 160, 209);
+    width: 80%;
+    font-weight: 700;
+    animation-name: change;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+.heading{
+    text-align: center;
+    color: rgb(34, 10, 34);
+    width: 100%;
+}
+
+p{
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.logo{
+    border: 5px solid #000;
+    padding: 30px;
+    border-radius: 50%;
+    width: max-content;
+    align-self: center;
+    background: rgb(239, 200, 4);
+    font-size: 30px;
+    animation-name: change;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.logo-container{
+    text-align: center;
+}
+
+.description{
+    font-size: 14px;
+    font-family: monospace;
+}
+.name{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+img{
+    height: 100px;
+    width: 80px;
+}
+
+.awards-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    font-style: italic;
+    font-family: monospace;
+    text-align: center;
+}
+
+@keyframes change {
+    0%{
+        background-color: aqua;
+    }
+
+    20%{
+        background-color: rgb(90, 218, 44);
+    }
+
+    30%{
+        background-color: pink;
+    }
+
+    40%{
+        background-color: blue;
+    }
+    50%{
+        background-color: gray;
+    }
+    
+    60%{
+        background-color: rgb(255, 64, 0);
+    }
+    80%{
+        background-color: rgba(238, 130, 238, 0.752);
+    }
+}
